@@ -1,0 +1,11 @@
+201,Demand loan
+202,education loan
+203,housing loan
+204,Jewel loan
+205,Loans on deposits
+206,Marriage loan
+207,property loan
+208,No Loan
+209,vehicle loan
+210,personal loan
+211,Not applicable

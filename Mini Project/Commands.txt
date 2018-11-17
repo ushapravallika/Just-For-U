@@ -1,0 +1,245 @@
+set editfile 'D:\Mini_work\editfile.txt'
+
+
+CREATE TABLE bank1(
+EMP_NAME VARCHAR2(60),
+EMP_AGE NUMBER(4),
+MARITAL_STATUS VARCHAR2(60),
+EMP_ID NUMBER(20),
+COMPANY VARCHAR2(60),
+COMPANY_LOCATION VARCHAR2(60),
+SPECIALIZATION VARCHAR2(60),
+DESIGNATION_ID NUMBER(20),
+PHONE_NO NUMBER(20),
+BANK_BRANCH VARCHAR2(60),
+EXPERIENCE NUMBER(5),
+EDUCATION VARCHAR2(60),
+VOTER_ID VARCHAR2(60),
+PAN_CARD VARCHAR2(60),
+HOUSING VARCHAR2(60),
+Loan VARCHAR2(20),
+LOAN_TYPE_ID NUMBER(20),
+REWARD_POINTS NUMBER(20),
+SAVINGS_ACCOUNT_NO VARCHAR2(60),
+CD_ACC_NO VARCHAR2(60),
+FD_ACC_NO VARCHAR2(60),
+OD_ACC_NO VARCHAR2(60),
+CURRENT_ACC_NO VARCHAR2(60),
+BALANCE NUMBER(20),
+CREDIT_CARD_NO VARCHAR2(60),
+DEBIT_CARD_NO VARCHAR2(60),
+INTERNET_BANKING VARCHAR2(80),
+AVG_BALANCE_YEAR1 NUMBER(20),
+AVG_BALANCE_YEAR2 NUMBER(20),
+AVG_BALANCE_YEAR3 NUMBER(20),
+ADDRESS_OF_EMPLOYEES VARCHAR2(60),
+ACCOUNT_OPENING_DATE VARCHAR2(30))
+/
+
+
+CREATE TABLE account_type(
+account_type_id NUMBER(2) PRIMARY KEY,
+account_type_name VARCHAR2(5))
+/
+
+
+CREATE TABLE bank_branch(
+bank_id NUMBER(5) PRIMARY KEY,
+branch_location VARCHAR2(15))
+
+CREATE TABLE company_location(
+location_id NUMBER(5) PRIMARY KEY,
+location_name VARCHAR2(20))
+/
+
+
+CREATE TABLE company_names(
+company_id NUMBER(5) PRIMARY KEY,
+company_name VARCHAR2(20))
+/
+
+
+CREATE TABLE designation_details(
+designation_id NUMBER(5) PRIMARY KEY,
+deisgnation_name VARCHAR2(20))
+/
+
+
+
+CREATE TABLE domain(
+domain_id NUMBER(5) PRIMARY KEY,
+domain_name VARCHAR2(20))
+/
+
+
+CREATE TABLE loan_type(
+loan_type_id NUMBER(10) PRIMARY KEY,
+loan_type_name VARCHAR2(60),
+rate_of_intrest DECIMAL(3,2))
+/
+
+CREATE TABLE marital_status(
+m_code NUMBER(10) PRIMARY KEY,
+marital_status_name VARCHAR2(20))
+/
+
+
+CREATE TABLE education_table(
+education_id NUMBER(5) PRIMARY KEY,
+education_name VARCHAR2(50)); 
+/
+
+CREATE TABLE personal_details(
+person_id NUMBER(10) PRIMARY KEY,
+name VARCHAR2(30),
+age NUMBER(3),
+marital_id NUMBER(10),
+phone_number NUMBER(15),
+income NUMBER(10),
+housing VARCHAR2(60),
+voter_id VARCHAR2(60),
+pan_card VARCHAR2(60),
+address VARCHAR2(40),
+education_id NUMBER(5))
+
+CREATE TABLE education_table(
+education_id NUMBER(10),
+education VARCHAR2(10))
+/
+
+ALTER TABLE education_table ADD CONSTRAINT PK_ED PRIMARY KEY(education_id);
+
+
+CREATE TABLE fact_table1(
+personal_id NUMBER(10),
+emp_id NUMBER(10),
+location_id NUMBER(10),
+company_id NUMBER(10),
+designation_id NUMBER(10),
+domain_id NUMBER(10),
+loan_type_id NUMBER(10),
+branch_id NUMBER(10),
+CREDIT_CARD_NO NUMBER(30),
+DEBIT_CARD_NO NUMBER(30),
+experience NUMBER(4,2),
+SAVINGS_ACCOUNT_BALANCE NUMBER(20),
+INTERNET_BANKING VARCHAR2(30),
+REWARD_POINTS NUMBER(20))
+/
+
+
+CREATE TABLE fact_table2(
+personal_id NUMBER(10),
+account_number NUMBER(15),
+account_type_id NUMBER(5),
+account_opening_date DATE)
+
+
+Foreign Key Constraints for Personal_Details table
+
+ALTER TABLE personal_details ADD CONSTRAINT fk_mid FOREIGN KEY(marital_id) 
+REFERENCES marital_status(m_code)
+
+ALTER TABLE personal_details ADD CONSTRAINT fk_edid FOREIGN KEY(education_id)
+REFERENCES education_table(education_id)
+
+
+select constraint_name, constraint_type from user_constraints where table_name = 'PERSONAL_DETAILS';
+
+
+Foreign Key Constraints for Fact Table 1
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_pid FOREIGN KEY(personal_id)
+REFERENCES personal_details(person_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_lid FOREIGN KEY(location_id)
+REFERENCES company_location(location_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_cid FOREIGN KEY(company_id)
+REFERENCES company_names(company_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_did FOREIGN KEY(designation_id)
+REFERENCES designation_details(designation_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_dmid FOREIGN KEY(domain_id)
+REFERENCES domain(domain_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_lnid FOREIGN KEY(loan_type_id)
+REFERENCES loan_type(loan_type_id);
+
+ALTER TABLE fact_table1 ADD CONSTRAINT fk_bid FOREIGN KEY(branch_id)
+REFERENCES bank_branch(branch_id);
+
+alter table fact_table1 add constraint fk_ltid foreign key(loan_type_id
+
+Foreign Key Constraints for Fact Table 2
+
+ALTER TABLE fact_table2 ADD CONSTRAINT fk_p2id FOREIGN KEY(personal_id)
+REFERENCES personal_details(person_id)
+
+ALTER TABLE fact_table2 ADD CONSTRAINT fk_aid FOREIGN KEY(account_type_id)
+REFERENCES account_type(account_type_id)
+
+changing the column name of fact table 1 
+
+alter table fact_table1 RENAME COLUMN loan_tyoe_id TO loan_type_id
+
+changing the length 
+
+ALTER TABLE account_type modify account_type_name VARCHAR2(30);
+
+ALTER TABLE BANK1 modify SPECIALIZATION VARCHAR2(30);
+
+
+ALTER TABLE BANK1 modify EMP_NAME VARCHAR2(60);
+
+ALTER TABLE BANK1 modify MARITAL_STATUS VARCHAR2(60);
+
+ALTER TABLE BANK1 modify COMPANY VARCHAR2(60);
+
+ALTER TABLE BANK1 modify COMPANY_LOCATION VARCHAR2(60);
+
+ALTER TABLE BANK1 modify SPECIALIZATION VARCHAR2(60);
+
+ALTER TABLE BANK1 modify DESIGNATION_ID NUMBER(60);
+
+ALTER TABLE BANK1 modify EMP_ID NUMBER(60);
+
+ALTER TABLE BANK1 modify BANK_BRANCH VARCHAR2(60);
+
+ALTER TABLE BANK1 modify EDUCATION VARCHAR2(60);
+
+ALTER TABLE BANK1 modify VOTER_ID VARCHAR2(60);
+
+ALTER TABLE BANK1 modify PAN_CARD VARCHAR2(60);
+
+ALTER TABLE BANK1 modify MARITAL_STATUS VARCHAR2(60);
+ALTER TABLE BANK1 modify MARITAL_STATUS VARCHAR2(60);
+
+
+
+
+HOUSING
+LOAN
+
+if IsValid("Date",Vdate,"%(d,s)/%(m,s)/%yyyy") Then StringToDate(Vdate, "%(d,s)/%(m,s)/%yyyy") Else SetNull()
+
+create table accountTypeName(account_type_name varchar2(50));
+insert into accountTypeName values('Savings Bank Account');
+insert into accountTypeName values('Cummulative Deposit Account');
+insert into accountTypeName values('Fixed Deposit Account');
+insert into accountTypeName values('Over Draft Account');
+insert into accountTypeName values('Current Account');
+
+
+
+select * from fact_table2 order by personal_id;
+
+column account_number format 9999999999999999;
+
+ create table tax(designation_id number(5), tax number(5));
+
+ALTER TABLE tax ADD CONSTRAINT fk_t FOREIGN KEY(designation_id)
+REFERENCES designation_details(designation_id);
+
+

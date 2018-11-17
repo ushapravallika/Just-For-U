@@ -1,0 +1,5 @@
+5001,Savings Bank account (SB)
+5002,Cumulative Deposit account (CD)
+5003,Fixed Deposit account (FD)
+5004,Over Draft account (OD)
+5005,Current account (C)

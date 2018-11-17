@@ -1,0 +1,11 @@
+'RAM GODBOLE'
+
+personal_details.person_id
+
+fact_table2.personal_id
+
+
+
+account_opening_date
+
+RUshikesh Rajesh

@@ -1,0 +1,1 @@
+if ([AGE] > 60 or [AGE] <= 60, 'Yes', 'No') AS [Retirement Policy]

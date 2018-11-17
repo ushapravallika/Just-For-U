@@ -1,0 +1,11 @@
+1001,Application Developer,20000
+1002,Assistant Software Engineer,17000
+1003,Embedded Engineer,22000
+1004,HR,50000
+1005,Network Engineer,21000
+1006,Programmer Analyst,30000
+1007,Senior Software Engineer,35000
+1008,Software Engineer,27000
+1009,System Analyst,18000
+1010,System Engineer,19000
+1011,Test Engineer,15000
