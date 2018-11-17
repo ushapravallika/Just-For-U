@@ -1,0 +1,35 @@
+ create table dim_city_161564 (
+ CITY_ID varchar2(40),
+ CITY_NAME VARCHAR2(40));
+
+ ALTER TABLE DIM_CITY_161564
+ ADD CONSTRAINT FK_CITY_ID
+ PRIMARY KEY(CITY_ID);
+
+
+ drop table dim_education_161564 cascade constraints;
+
+
+
+ create table dim_education_161564 (
+ EDUCATION_ID varchar2(40),
+ HIGHEST_EDUCATION VARCHAR2(40));
+
+
+ ALTER TABLE DIM_EDUCATION_161564
+ ADD CONSTRAINT PK_EDU_ID
+ PRIMARY KEY(EDUCATION_ID);
+
+
+ drop table dim_occupation_161564 cascade constraints;
+
+
+
+ create table dim_occupation_161564 (
+ OCCUPATION_ID varchar2(40),
+ OCCUPATION_NAME VARCHAR2(40));
+
+
+ ALTER TABLE DIM_OCCUPATION_161564
+ ADD CONSTRAINT PK_OCC_ID
+ PRIMARY KEY(OCCUPATION_ID);

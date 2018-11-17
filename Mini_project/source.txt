@@ -1,0 +1,30 @@
+create table source_table_161564(
+PERSON_ID varchar2(40),
+DOOR_NUMBER number(10,2),
+GENDER varchar2(40),
+DOB varchar2(40),
+CURRENT_MARRTIAL_STATUS varchar2(40),
+RELIGION varchar2(40),
+CASTE varchar2(40),
+DISABILITY varchar2(40),
+TYPE_OF_DISABILITY varchar2(40),
+LITERACY_STATUS varchar2(40),
+CURRENT_STATUS_OF_ATTENDANCE varchar2(40),
+HIGHEST_EDUCATION_LEVEL varchar2(40),
+OCCUPATION varchar2(40),
+NATURE_OF_INDUSTRY varchar2(40),
+SECTOR varchar2(40),
+SALARY number(10,2),
+MODE_OF_TRAVELLING varchar2(40),
+CHILDREN_SURVIVING varchar2(40),
+PERSONS_EXPIRED_IN_10_YR varchar2(40),
+TYPE_OF_HOUSE varchar2(40),
+PAN_CARD varchar2(40),
+RATION_CARD varchar2(40),
+ADHAR_CARD varchar2(40),
+AREA varchar2(40),
+CITY varchar2(40));
+
+
+
+

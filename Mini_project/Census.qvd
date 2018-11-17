@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50500</QvBuildNo>
+   <CreatorDoc>D:\Neeharika\Mini_project\Census_mini_project.qvw</CreatorDoc>
+   <CreateUtcTime>2018-11-12 09:11:25</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Census</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>PERSON_ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>599</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>3594</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DOOR_NUMBER</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>FIX</Type>
+         <nDec>2</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>132</NoOfSymbols>
+       <Offset>3594</Offset>
+       <Length>660</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>GENDER</FieldName>
+       <BitOffset>82</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>4254</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DOB</FieldName>
+       <BitOffset>22</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>555</NoOfSymbols>
+       <Offset>4268</Offset>
+       <Length>7282</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CURRENT_MARRTIAL_STATUS</FieldName>
+       <BitOffset>40</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>11550</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>RELIGION</FieldName>
+       <BitOffset>68</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>11600</Offset>
+       <Length>34</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CASTE</FieldName>
+       <BitOffset>70</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>11634</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>DISABILITY</FieldName>
+       <BitOffset>83</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>11650</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>TYPE_OF_DISABILITY</FieldName>
+       <BitOffset>43</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>11659</Offset>
+       <Length>86</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>LITERACY_STATUS</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>11745</Offset>
+       <Length>26</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CURRENT_STATUS_OF_ATTENDANCE</FieldName>
+       <BitOffset>46</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>11771</Offset>
+       <Length>56</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>HIGHEST_EDUCATION_LEVEL</FieldName>
+       <BitOffset>49</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>11827</Offset>
+       <Length>22</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>OCCUPATION</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>11849</Offset>
+       <Length>152</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>NATURE_OF_INDUSTRY</FieldName>
+       <BitOffset>56</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>12001</Offset>
+       <Length>114</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SECTOR</FieldName>
+       <BitOffset>74</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>12115</Offset>
+       <Length>40</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>SALARY</FieldName>
+       <BitOffset>15</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>FIX</Type>
+         <nDec>2</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>86</NoOfSymbols>
+       <Offset>12155</Offset>
+       <Length>430</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>MODE_OF_TRAVELLING</FieldName>
+       <BitOffset>76</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>12585</Offset>
+       <Length>26</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CHILDREN_SURVIVING</FieldName>
+       <BitOffset>60</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>12611</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CHILDREN_EVER_BORN</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>12661</Offset>
+       <Length>53</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>PERSONS_EXPIRED_IN_10_YR</FieldName>
+       <BitOffset>78</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>12714</Offset>
+       <Length>28</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>TYPE_OF_HOUSE</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>12742</Offset>
+       <Length>11</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>PAN_CARD</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>12753</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>RATION_CARD</FieldName>
+       <BitOffset>86</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>12762</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ADHAR_CARD</FieldName>
+       <BitOffset>87</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>12771</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>AREA</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>21</NoOfSymbols>
+       <Offset>12780</Offset>
+       <Length>208</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>CITY</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>12988</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>599</NoOfRecords>
+   <Offset>13013</Offset>
+   <Length>6589</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ P377 P379 P381 P383 P385 P387 P389 P391 P393 P395 P397 P399 P401 P403 P405 P407 P409 P411 P413 P415 P417 P419 P421 P423 P425 P427 P429 P431 P433 P435 P437 P439 P441 P443 P445 P447 P449 P451 P453 P455 P457 P459 P461 P463 P465 P467 P469 P471 P473 P475 P477 P479 P234 P236 P238 P240 P242 P244 P246 P248 P250 P252 P254 P256 P258 P260 P262 P264 P266 P268 P270 P272 P274 P276 P278 P280 P282 P284 P286 P288 P290 P292 P294 P296 P298 P300 P302 P304 P306 P308 P310 P312 P314 P316 P318 P320 P322 P324 P326 P328 P330 P332 P481 P483 P485 P487 P489 P491 P493 P495 P497 P499 P501 P503 P505 P507 P509 P511 P513 P515 P517 P519 P521 P523 P525 P527 P529 P531 P533 P535 P537 P539 P541 P543 P545 P547 P549 P551 P553 P555 P557 P559 P561 P563 P565 P567 P569 P571 P573 P575 P577 P579 P581 P583 P334 P336 P338 P340 P342 P344 P346 P348 P350 P352 P354 P356 P358 P360 P362 P364 P366 P368 P370 P372 P374 P376 P378 P380 P382 P384 P386 P388 P390 P392 P394 P396 P398 P400 P402 P404 P406 P408 P410 P412 P414 P416 P418 P420 P422 P424 P426 P428 P430 P432 P585 P587 P589 P591 P593 P595 P597 P599 P434 P436 P438 P440 P442 P444 P446 P448 P450 P452 P454 P456 P458 P460 P462 P464 P466 P468 P470 P472 P474 P476 P478 P480 P482 P484 P486 P488 P490 P492 P494 P496 P498 P500 P502 P504 P506 P508 P510 P512 P514 P516 P518 P520 P522 P524 P526 P528 P530 P532 P534 P536 P538 P540 P542 P544 P546 P548 P550 P552 P554 P556 P558 P560 P562 P564 P566 P568 P570 P572 P574 P576 P578 P580 P582 P584 P586 P588 P590 P592 P594 P596 P598 P031 P033 P035 P037 P039 P041 P043 P045 P047 P049 P051 P053 P055 P057 P059 P061 P063 P065 P067 P069 P071 P073 P075 P077 P079 P081 P083 P085 P087 P089 P091 P093 P095 P097 P099 P101 P001 P003 P005 P007 P009 P011 P013 P015 P017 P019 P021 P023 P025 P027 P029 P103 P105 P107 P109 P111 P113 P115 P117 P119 P121 P123 P125 P127 P129 P131 P133 P135 P137 P139 P141 P143 P145 P147 P149 P151 P153 P155 P157 P159 P161 P163 P165 P167 P169 P171 P173 P175 P177 P179 P181 P183 P185 P187 P189 P191 P193 P195 P197 P199 P201 P002 P004 P006 P008 P010 P012 P014 P016 P018 P020 P022 P024 P026 P028 P030 P032 P034 P036 P038 P040 P042 P044 P046 P048 P050 P052 P054 P056 P058 P060 P062 P064 P066 P068 P070 P072 P074 P076 P078 P080 P082 P084 P086 P088 P090 P092 P094 P096 P098 P100 P102 P104 P203 P205 P207 P209 P211 P213 P215 P217 P219 P221 P223 P225 P227 P229 P231 P233 P235 P237 P239 P241 P243 P245 P247 P249 P251 P253 P255 P257 P259 P261 P263 P265 P267 P269 P271 P273 P275 P277 P279 P281 P283 P285 P287 P289 P291 P293 P295 P297 P299 P301 P303 P305 P307 P309 P311 P313 P315 P317 P319 P321 P323 P325 P327 P329 P331 P333 P335 P337 P339 P341 P343 P345 P206 P208 P210 P212 P214 P216 P218 P220 P222 P224 P226 P228 P230 P232 P347 P349 P351 P353 P355 P357 P359 P361 P363 P365 P367 P369 P371 P373 P375 P106 P108 P110 P112 P114 P116 P118 P120 P122 P124 P126 P128 P130 P132 P134 P136 P138 P140 P142 P144 P146 P148 P150 P152 P154 P156 P158 P160 P162 P164 P166 P168 P170 P172 P174 P176 P178 P180 P182 P184 P186 P188 P190 P192 P194 P196 P198 P200 P202 P204 @  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R       !  "  #  $  %  &  '  (  )  *  +  ,  -  .  /  0  1  2  3  4  5  6  S  T  U  V  W  X  Y  Z  [  \  ]  ^  _  `  a  b  c  d  e  f  g  h  i  7  8  9  :  ;  <  =  >  ?  j  k  Ì  Ó  Ô    Ò  Ú  Û  Ù  ı  ˆ  ˜  ¯  ˘  ˙  ˚  ¸  ˝  ˛  Ë  È  Í  Î  Ï  ˇ                     	  
+                                          FEMALE MALE 21/04/1968 14/12/1960 15/05/1991 3å  4/6/1998 óX  2/2/1962 |Ü  4/4/1994 Ú`  12/12/1967 fà  8/7/1995 ìb  2/1/1969 14/03/1996 +c  7/3/1969 
+à  5/7/1995 mT  3/4/1959 28/07/1991 @]  5/10/1965 18/04/1997 14/05/1941 ‹X  4/12/1962 14/07/1965 ¡ç  5/9/1999 ì`  9/8/1967 21/06/2000 26/05/1945 17/08/1974 è¢  12/7/2013 22/04/1976 30/09/1973 15/07/1947 Dk  3/7/1975 31/03/2010 6q  5/7/1979 23/04/1978 27/05/2010 14/02/1953 16/12/2019 ÏV  12/2/1960 ,f  8/11/1971 22/12/2007 14/11/1973 28/03/2000 22/11/1973 22/03/1996 R  7/10/1957 ûÜ  5/8/1994 ZV  7/9/1960 Û9  8/12/1940 26/04/1957 fD  12/9/1947 24/03/1998 22/02/1976 ZG  1/3/1950 UL  7/1/1953 _G  1/8/1950 16/07/1980 17/05/1994 T  12/3/1958 15/03/1982 21/06/1982 ◊n  9/7/1977 py  2/10/1985 G|  2/7/1987 29/09/1965 14/11/1985 19/03/1951 30/05/1987 Qè  6/12/2000 ’d  9/2/1970 14/12/1980 ˛û  6/8/2011 14/09/1960 26/07/1960 ‘z  2/1/1986 27/06/1965 15/09/1995 25/12/1950 19/05/1984 ‚c  1/2/1970 25/09/2005 28/03/1986 25/01/2014 √\  1/5/1965 13/07/1991 p^  3/10/1966 27/02/1990 20/12/1987 23/12/1960 SÇ  5/5/1991 13/11/1957 nå  6/4/1998 27/05/1999 Eê  2/11/2001 20/06/2003 vO  9/10/1955 29/11/1974 18/04/1998 27/02/1968 27/04/1994 19/05/1968 14/12/2000 27/04/1963 Ç  3/8/1991 =Ñ  9/6/1992 28/02/2001 15/03/1960 21/11/1992 22/12/1965 ≤9  6/8/1940 22/03/1998 26/08/1964 25/07/1992 31/12/1996 15/04/1964 “q  10/10/1979 ¬ô  10/7/2007 rH  10/10/1950 23/02/1989 ßR  12/5/1957 23/02/1990 ’G  5/6/1950 []  6/6/1965 22/11/1964 22/07/1995 22/07/1989 ≤Ñ  1/1/1993 Ëc  1/8/1970 vs  12/3/1980 î¢  12/12/2013 22/05/1961 8  3/1/1989 24/06/1950 Ωo  4/25/1978 õ  9/4/2008 Æp  12/22/1978 àù  5/30/2010 ói  1/2/1974  ï  7/8/2004 19/12/1984 Ìü  2/2/2012 22/11/1934 ∑b  3/9/1969 22/01/2000 17/11/1976 23/09/1945 14/12/1998 Hà  7/8/1995 ub  1/2/1969 Bâ  3/14/1996 µb  3/7/1969 Eà  7/5/1995 28/08/1987 “V  11/6/1960 14/07/1991 17/05/1995 ]i  11/5/1973 V  5/6/1960 21/11/1955 ôV  9/10/1960 15/09/1968 14/02/1992 ^S  6/6/1958 30/07/1987 24/08/1960 16/01/1991 21/09/1960 Ç  3/1/1991 24/06/1949 ß^  5/4/1966 18/06/1998 17/02/1967 26/10/1991 20/11/1968 17/07/1991 22/11/1968 Ãá  3/6/1995 /T  1/1/1959 Ç  3/3/1991 ”`  11/11/1967 °É  4/3/1992 16/05/1966 0Ö  5/7/1993 £a  6/6/1968 21/03/1994 23/04/1951 20/07/1965 ƒà  11/9/1995 19/07/1969 19/04/1997 26/01/1958 >V  6/11/1960 œá  3/9/1995 15/02/1970 20/06/2004 Ja  3/9/1968 ®î  3/10/2004 Áe  6/3/1971 18/08/2013 Sq  6/5/1979 25/08/1949 ◊F  8/25/1949 ‹o  5/26/1978 Lm  8/8/1976 ∆†  9/6/2012 ß  6/20/1989 J†  5/5/2012 13/09/1991 26/05/1978 m†  6/9/2012 20/06/1989 25/07/1961 24/05/1991 u]  7/2/1965 îj  9/12/1974 14/12/1970 15/05/1971 22/07/1994 22/11/1953 ÇÉ  3/3/1992 ŒQ  5/2/1957 ÃC  7/8/1947 08-90-1998 24/08/1995 24/08/2001 %r  1/1/1980 ˙ó  7/8/2006 ßU  1/12/1960 ¯Ñ  3/12/1993 14/07/1930 23/08/1966 23/11/1960 ˚É  7/2/1992 JÖ  6/2/1993 24/03/2001 17/07/1975 8á  10/9/1994 26/01/1964 18/07/1991 ap  10/6/1978 ºú  11/7/2009 ∂V  10/9/1960 ôz  12/4/1985 ´H  12/6/1950 23/12/1985 pC  4/7/1947 ßC  6/1/1947 22/03/1992 22/07/1969 13/06/1992 22/11/2005 Pv  12/3/1982 22/06/1960 13/06/1980 µz  1/1/1986 C  1/10/1947 h  12/10/1972 öm  10/25/1976 21/04/1986 µ°  5/3/2013 22/10/1941 14/07/1975 23-05-1973 21/04/2002 9E  7/7/1948 ÉÉ  3/4/1992 ≥^  5/16/1966 kÖ  7/5/1993 nÜ  3/21/1994 ”C  7/15/1947 ∫k  7/3/1975 Lù  3/31/2010 qq  7/5/1979 ªo  4/23/1978 Öù  5/27/2010 13/09/1986 'r  1/3/1980 Ù  9/5/1989 21/08/2011 30/12/1960 28/05/2002 14/09/1986 πZ  8/2/1963 23/06/1976 22/05/1963 25/10/1991 23/06/1945 +ä  11/2/1996 19/05/1934 16/07/1968 Zê  3/4/2001 23/11/1956 13/04/1990 23-15-1954 28/04/1986 16/08/1932 13/04/1974 15/10/1991 !s  9/9/1980 Át  12/7/1981 19/03/1961 Lë  11/1/2001 V  5/5/1960 28/07/1992 26/10/1947 21/01/1958 31/03/1960 17-06-1970 19/12/1995 26/03/1985 ù|  5/4/1987 13/05/1986 13/05/1988 22/07/2011 úU  1/1/1960 üw  11/3/1983 …è  10/10/2000 13/03/1991 16/08/1962 26/09/1993 21/02/1960 15/11/1985 26/03/1984 21/07/2012 “b  4/5/1969 'Z  3/9/1963 å  3/9/1998 Yl  12/9/1975 15/08/1999 Tl  12/4/1975 29/08/1996 25/05/1973 úÜ  5/6/1994 ^g  6/12/1972 ∏}  2/11/1988 éO  10/4/1955 s  12/12/1980 êé  12/2/1999 23/03/1985 24/09/1982 25/05/2011 26/06/1970 Rå  5/7/1998 Fp  9/9/1978 31/03/1975 	|  12/7/1986 ¡Å  12/10/1990 ry  2/12/1985 30/09/1960 ô  6/6/1989 óÇ  7/12/1991 ıö  8/9/2008 ûG  3/12/1950 15/08/1980 }  9/10/1987 29/08/1989 &r  1/2/1980 14/04/1985 19/02/1950 23/12/1973 22/05/1990 xs  12/5/1980 20/10/2010 28/03/1959 23/05/1991 25-8-08-1994 €]  10/12/1965 15/08/1965 çÄ  2/5/1990 17/04/1940 ›=  5/11/1943 14/09/1988 14/08/1976 29/01/1997 18/04/2013 ∞ü  12/3/2011 13/02/2014 25/11/1967 26/09/1983 åo  3/7/1978 òG  3/6/1950 ó  11/11/2005 23/11/1987 13/04/2009 24/06/1957 14/02/2000 23/07/1958 S}  11/2/1987 13/06/1960 17/03/1994 `s  11/11/1980 13/10/1996 ƒ\  1/6/1965 ÂÖ  11/4/1993 18/09/1950 ÷é  2/10/2000 23/08/1940 27/09/1970 Ÿí  12/3/2002 .Y  7/3/1962 22/06/1991 Q  11/4/1956 T}  11/3/1987 27/09/1936 _p  10/4/1978 √p  1/12/1979 ®¢  1/1/2014 26/09/1963 ©ë  2/2/2002 da  4/4/1968 27/02/1993 30/03/1950 —{  10/12/1986 Ûx  10/8/1984 >u  3/4/1982 Éô  8/5/2007 x  3/5/1984 17/05/2009 31/12/1982 )û  11/7/2010 25/08/1970 14/02/1968 ˙\  3/1/1965 17/05/1998 27/06/1970 26/02/2003 23/06/2013 tV  8/4/1960 23/09/1984 H  7/9/1950 ck  4/7/1975 27/07/2009 22/09/1986 ÿk  8/2/1975 26/12/1989 26/07/1954 VÇ  5/8/1991 25/08/1986 28/01/1958 31/05/1991 ^  12/8/1965 Ç  3/11/1991 #z  8/8/1985 16/01/1955 13/03/1986 19/04/1992 29/10/1982 17/07/1973 14/09/1970 26/04/1978 ãù  6/2/2010 21/03/1980 19/02/2008 24/07/1990 17/07/1961 `Ü  3/7/1994 ÖW  5/4/1961 31/01/1987 ›Å  1/7/1991 22/04/1995 ˝\  3/4/1965 16/08/1994 25/07/1963 19/03/1969 20/08/2000 15/12/2002 15/02/1945 ¬a  7/7/1968 <â  3/8/1996 26/12/1991 ˝U  4/7/1960 29/11/1998 Ãì  8/3/2003 30/12/1969 25/08/1993 20/09/1955 26/10/1987 14/07/1993 1^  1/6/1966 ¸Å  2/7/1991 19/12/1991 GÜ  2/10/1994 «m  12/9/1976 πï  12/8/2004 13/06/1978 ñ  3/5/2005 \E  8/11/1948 å~  9/10/1988 Ω]  9/12/1965 åW  5/11/1961 TÇ  5/6/1991 15/10/1965 23/07/1991 16/04/1986 18/10/1954 22/09/1999 28/07/1968 26/03/1996 17/07/1968 14/03/1990 22/05/1966 åá  1/1/1995 15/03/1968 13/02/1998 rV  8/2/1960 23/08/1962 17/04/1968 19/07/2003 25/01/1967 Bã  8/8/1997 15/05/1982 ‡~  12/3/1988 E~  7/1/1988 22/02/1961 23/02/1993 Oc  8/8/1969 n^  3/8/1966 24/09/1995 27/10/1961 23/11/1995 23/07/1959 3Ç  4/3/1991 25/09/1969 Hy  1/1/1985 +A  9/3/1945 =l  11/11/1975 Hä  12/1/1996 ãr  4/12/1980 24/09/2000 24/08/1986 25/09/2013 26/08/1976 `d  5/8/1970 AÑ  9/10/1992 30/07/1980 13/03/1984 0r  1/12/1980 6ù  3/9/2010 31/01/1969 %Å  7/7/1990 nt  8/8/1981 Ôù  9/10/2010 ÎR  2/11/1958 15/09/1983 21/04/1985 30/01/1973 Üt  9/1/1981 16/08/1968 25/03/1958 29/08/1979 Ug  6/3/1972 ™y  4/9/1985 21/09/2012 29/07/1962 24/07/1993 24/08/1959 25/04/1991 XV  7/7/1960 MARRIED UNMARRIED NA WIDOWER WIDOW DIVORCEE MUSLIM HINDU CHRISTIAN OTHERS OBC SC/ST GM NA YES NA HEARING PHYSICAL IMPAIRMENT PHYSICAL VISION INTELLECTUAL HEARING IMPAIRMENT LITERATE ILLITERATE NA WORKING STUDENT HOME MAKER RETIRED NA NOT WORKING UG SSC HSC PG NA CLERK ARMY OFFICER SOFTWARE ENGINEER NA PROFESSOR BUSINESS FARMER ACCOUNTANT CONTRACTOR LAWYER DOCTOR PILOT NURSE DRIVER POLICE TEACHER BANKING AND FINANCE DEFENCE IT NA EDUCATION OTHERS AGRICULTURE CIVIL LAW & ORDER HEALTH TRANSPORTATION GOVERNMENT PRIVATE NA SELF EMPLOYED  5 ¿'	  °     ‡ì @B @KL `Vl †ª  q @ ¿‘ P√  0Ê `[ pÇ 0W `„ (ö †Ü  N  ÿY  ò:  ∏à  àê  Ä ¿E ê– –˚ @~ `Æ
+ Wˆ Ø  Ë˝  –› |O ¿œj †%&  ø HË Í ∫ I †˜  S h6 + ∏ú  ‚ 	 p˘ ê_ Ën P• @ı xi  09
+ Ω ‰ pd x] ®C XÒ òô àf –„ P êA  0 ÄO  ‘0 ∞ ∞¿ ¿ò ò ®a  PF  ˜ó ¯∫ »   
+ `Í  Äã ∏j àH ‹j PRIVATE NA OWN PUBLIC NA    5    2     0    1    3    4 NN NA    5    2    6     0    3    1    4     0    1    2    3 OWN RENT YES NO YES NO YES NO AKURDI HEBBAL WHITEFIELD SANJAY NAGAR JAYANAGAR BANDRA AIROLI RR NAGAR SHIVAJI NAGAR VASHI NIGADI RAJAJI NAGAR VIJAY NAGAR DADAR CST GANDHI NAGAR JAYA NAGAR THANE HADAPSAR PANVEL ANDHERI PUNE BANGALORE MUMBAI          ÄA  1S  Ç  "RÄ¬ B2#R4Ä @$R$ ÄBB4#R ÄÇÄ0#í Ä¬B4#í$ÄÄ4#í0	ÄBB4#í0
+ÄÅ F$0Ä¬B4#0 @D$C "ÑÉ &B,Ñ¬B2#%à√83ïY%àBÄ2Sñ!àÇÄ4#í!à¬B2#í% REó,àBJ2#í-åÇ√83£YEå¬Ä2#¢aå9#¢·åBÄ2#¢aåÑ RU¶,Eê¬	¿835	 bfêB	B8#±êÇ	Ä6#1ê¬	 3C5 ê	9#µ!C
+ p@@"îÇ
+Ç0c#ò≈ hF&$	 hf&%òB	B8#&&êÇ	Ä8#'ê¬	B8#(å
+Ä8#)åB
+B4#*àÇ
+Ä8#"+à¬
+A4#",úÄ8#-úBÄ8#%.†Ü Äw$$/†¬Ä8É 0†B8# 1 G hf$2ÄÇÄ8s 3§« hv]4Ñ¿6C4X5H ñX8 6®ÇA0#28 7ú¬Ä4#°8¨Ä0#!9∞H FT&t5:â v@$p;√  P(4< "" =0B à'=!>0É ¶Y ?¥¬¿6sYX6@¥	†)R02A¥B9#R∫B8ä h&í-"C… ∂a8 DÑ9#2µEÑB¿0#"!FÅ∏A4a1G∆ @T60H¨ ¿iXpI¨BB2#í8%Jºähfm†Kº¬Ä0#L0  @ó MòBB2#í82NÜ  p`8 OÑ¬ 9#2µP@! ¿)DQƒK!ê(Rå" –*$Sà¬"A6#8T»" †Y0 U®A#  BîV(É# RñW(¡$ FdîtX®$Z2Sñ(Y®L%ò(í1 Z®å%»)í5 [(¿%B8#í$\®& 9# ]®B&Ä0# ^®Ç&B2# _ ¡'Ä@$  `†'A4#a @(Ä2# b Ä(b8#,c √)  B$d ) "b8e Õ* ÷Jd$f§BA0#g§ÇB8#hÃÕ+ –j( iÃ+ ""jƒB,Ä8#kƒÇ,Ä8Cl∏¬-B2#6mÑ. Pu,nN. "oÑÇ.B0#p–¬/Ä0#(q∞0 A r∞B0B8#%s®Ç1 Pu\t®¡1&"$u®1Ä0SX v¨2à8#9w,O2ÿ*5x¨Ç2Ä8#1yº¬3Ä8# zº3ô8#({ºB3B0# |»Ü4¿)R  }»¬4A0#R ~¥5Ä8#R2¨O6 àg Ä¨Ç69#•Åà¬7Ä8É	ÇàB7Ä8#Éà 7Ä8#ÑàB 7Ä8#!Ö,ê 8 &"¢4Ü¨¬ 8B2#¢±á¨!9Ä4#¢1à¨B!99#¢µâ¨É!: A¥ ä¨¬!:b9#≤ΩãP"; ¶IÑå–B";9#Çˆç∏Ç"<9C§.é∏Õ"< Fd®0è∏#<B2#¢ê∏B#< 1#¢"ë§É#= Xeí§¬#=B4#ìÄÇ>Ä0#í îÄ$>B4#í$ïÄB$?Ä4#í0ñÄÇ$?B4#í0óÄ¡$@ F$0òÄ%@B4#0ô,ê A &"¢4ö†A%*F$b4õ Ä%B †yg ú ≈%B  b ù  &BB4#b û @&CÄ8#b0ü»Å&DFdX4†»–&E êHî,°H'EA "í $¢HQ'F ¿IÑ44£HÉ'FA "Ç§H¬'G @dD`•H(G  RF¶»Q(G ‘JD<ßHí(G@$B$®»Õ(H  BD©»)HA0#0™ÄB)I9CY‡´ÄÇ)IÄ2# ¨Ä¬)IA2# ≠Ä*J v@§ ÆÄB*J)9#¢8Ø Å*  p` ∞Ä√* ∞! ±Ä+Ä4#R0≤ÄB+B4#R4≥ É+ @DT ¥ÄŒ+ "R µÄ, ∂Aî ∂ÄA, "í$ ∑ ê, t@î ∏Ä¬,A4#í4π - &B∫ÄB-A4#0ªÑÇ-Ä8ÉY!ºÑ¬-Ä0#!ΩÑ.B4#%æÑB.Ä4C!øÑÇ.B2#!¿à√.bVñ,-¡/ Tuó,¬àB/B2#í%√à¬B2#í%ƒàÇ/Ä2#í!≈à¬/B2#í!∆0 RE§,E«åB0B2#¢·»åì0 bf§<E…å¬09#¢· å1Ä2#¢AÀêB1	®8#9Ã¨¬ AB2#¢±Õ¿Ç1Kà8#9Œ¿¬1KÄ2#œ@2K ‰h 5–¿B2K9#µ—¿Ç2KÄ4#1“¿¬2K9#±”3L &Rñ$‘êB3	Ä2#’2	 Te,5÷êÇ3	9#µ◊ê¬3	Ä4#1ÿê¬2	9#±Ÿî4
+Ä8#"⁄B4
+ "€òÇ4Ä8#"‹ò¬4Ä8#"›5 hFﬁê¬B2#ﬂåM5 ÄG`‡åÇ5A0#·à 5 hF$‚à6A6#"„úT6 –j ‰úÇ6Ä8C!Âú¬6B2#Ê†¬Ä8# Á†7B8# Ë†B7B8#$ÈÄÇ7Ä0c ÍÄ¬7B8#$Î§8Ä8#Ï§B8A0#Ì§Ç8Ä83ÓÃ¬8+Ä8#"Ôƒ9, hFDU9,h&Ò8É9-@ 2Ú∏¬9-B8#6ÛÑ:.Ä8#ÙÑU:.–* ıPâ:/ `dˆP“:/ "˜∞;0Ä6#¯∞B;0B8#!˘®Ç;1Ä8# ˙(∆;1  R$ ˚,<2(9C=¸,V<2∏!1˝¨Ç<2Ä8c5˛ºÇ&3 8C$ˇº¬<3à8C( ==3 "  …V=4hvW] Ió=4&"R$ µE$5 hfT6µ¬=5B0#R2≠>6Äà'âW>7 hÜ	]âÇ>7Ä8#	ÿ>7 "$	â?7Ä8c%
+≠É!8 &B§4≠¬!89#¢Ω≠I?9  B§4≠Å?9 "¢4≠B299#¢±-ê : &"≤≠¬ :B2#≤±—¬?;Ä0#Ç2—@;9#ÇˆπB@< 9#¢"πò@< $¢09–@< &b®πA<B2#¢•BA= 9#≤Å,> ∂Qî ÅÅA> "í$ –A? @ô ÅB?A4#í4-@ &BÅBB@A4#0≠É!A &B§4≠¬!A9#¢Ω ¡ÇBK¿835!A≈BK bf"¡CKB8#±#¡BCKÄ6#1$¡ÇCK@3C5%¡¬CKB8#µ&DL &Rñ$'πBDM	9S"*(µÇDNÄ0#Ç2)µ¬DN9#Ç*QEO $R0Ç+—BEOB8#R¶,µôEP 0-—"Q †IÑ.—B"Q9#Çˆ/πÇ"R9C§.09⁄"R Fd®01π#RB2#¢2πB#R 1#¢"3%Ç#S Xe4•¬#SB4#5%÷ET ‡( 6MFU †IÑ 7ÕUA4#Ç8ÕMFV XETΩ&9ÕàFV "R4:ï⁄FW eX æ;GWv R0<ïBGX9cß>=ÅGX &B§>ï¬GXB4#¢6?	HY FDÄ@ô[HY "4AôÖHZ XEYB»HZ "4C≈I[ 9s&DEYI[  ` E≈ÇI[A0#FE‹I[&"G≈J\Ä0#ÇH•\J] &B§I•ÇJ]B4#¢6Jë¡J^ AópKï
+/_  BDLïK_A2#MïBK_É8S"NMÉK` ˆd®0OMŒK` &"¢P%La FDTÄQ•BLaB0#R&RQñLb @Dp6S—¬LbÄ8#Y2TMc XET]UPMc X%R]2VôÇMc*9#R:Wô¬Mc9cXY2X9NM($"4
+YπBNMb4#"*ZëçN^ "í[ùŒNd hFîmµ\ùOdA0#í1]çBOeå8sô)^íOe   _…Of @dò0`ëPf9#íÒaΩBPgÄ8#¢) bΩùPh ‘j0$cΩ¬PhB2#$d1Qi ÿ*±e±BQiZ8#˘fÜQj T%,!gÖ¬QjB4#!hRk T%b"iïBRkA4#bBjùÇRlÄ8#í9!kùﬁRl&"$lùSm¿8#!m_Sm ¿)í$!nùÇSmB2#íeoùﬂSm $¢0!p Tm @DT qùBTm9#R·rù†Tn ‡h∏`sù¬TnB8#≤Òt	Uo p`4!u1FUp àG1Ev1ÖUp "í4Ew±¬UpÄ0Sñ!xMVq  "b y¡BVr¿8sGŸ%z¡ÇVrà4#B(){¡«Vr   |¡WrB8#e}¡BWs¿0Cî5~A°Ws &bò¡¬Ws†4#í89Ä¡XtÄ0SñÅACXu  RñÇÖÇXvÄ0#íÉΩ¬Xw¿6s$Ñ=Yw ∞a ÖΩBYw9#‡Ü1ûYx FD$á±¬YxB8#Rqà©Zy @tó$â)CZy "í$ä)ÄZyY4#íhã©¬ZzÄ2# åï[_Ä4#"çïB[_A2#éÕÇ[` 9c®6èM÷[`  %¢ êÕ\`A2#¢ë%I\a F$R4í•Ç\aB6#R"ì—¬\bB0#î—]b9#2ïôB]c9#R6ñôÇ]cÉ8cXY2ó…]c RRtò9^M FD$0ôπB^MÉ8S$"öπÇ^MB0#""õµ·^N&BÑDúµ_NB0#Çù—^_OFDT0Üû—Ç_OJ2#R™ü5∆_P8s]2†5"`P "°—¬?QÄ0#Ç2¢—@Q9#Çˆ£πB@R 9#¢"§π¢@R @$¢0•π¡@R &b®¶πARB2#¢ß•BAS 9#≤®%Y`T FD4©•Ç`TA4#™M„`U  "Ç4´ÕaUB2#Ç¨ÕcaV X%R="≠M§aV†)RÆï¬aWÄ8ìR≤ØïbWB4#R∞ïBbX 9#¢2±ï§bX  "¢≤ï¬bXB2#¢2≥%cY ˆ$∞¥RcY "4µôÇcZÄ8#Y¢∂ô∆cZ "4∑≈d[ 9#"∏≈Fd[ p`0π≈U[ "4∫≈•d\ †ià@ª≈¬d\9#Çº•e]Ä0#¢2Ω•Be]B2#¢2æëÇe^Ä4#í!ø“e^ "í¿Af{ h6ïm%¡AVf{P í¬AÜf{Ä'í$√ù¬f|Ä8#1ƒùg|B8#85≈≠Bg}Ä2#∆≠Çg}B8#81«©Œg~ Fd0»©h~9#†…)Eh à'50 âÇhÄÄ4c!À	∆hÅ¿ITÃâiÅB2#8%ÕJiÇ ¿) "ŒôÇiÇB8#"8&œ¡¬iÉ9#"±–ÖjÄ2#2°—ÖNj ñX8 “ùÇj¿6C•”-Êj ∆i ‘≠kB8#•’1fk @T601÷ñk   R0◊÷k @$íÿ±
+l ÑGl%Ÿ±Blq0#8©⁄±él ¶Y$€µ¬lÄ8#R2‹µmA0#R≤›9Jm bfòl&ﬁ-Çm "íﬂÖ¬mÄ6#21‡Ön¿6c(%·Fn÷*" ‚âÇnA0#281„	 n –Z645‰-o T*í<!Â≠Bo!9#í≠Ê=Üo ¶i ÁΩ¬o9#∞Ë±pÄ2ê1ÈôBpA2#í86Íîp    2 ÎAÀp! ¥A%Ï¡&q!‡(0Ì	gq" ‡àpÓIÖq" ¶Y0Ô≈»q" "	 r"B0#8!Ò©Br#Ä0#í Ú©Çr#A4Sñ Û©¡r$ @$í  Ù)s%Ë8ìq ı)@s%B8#í$ˆ)Äs%B8#í ˜©¬s& 9c$¯©'t& v@˘©Bt&B4#$˙°√J' †I ˚!®t'A " ¸°Ãt( ‘z,˝! u(B2#‰˛!@u(B8# ˇ!Äu) ƒ)"$ "¿u)I4#b8" v*Ä0#b ¢¡**@$b4 "@vBÄ0#b "ÄvBi4#b,"¬vC ‡hh0"wC "b–JCwD "R¬Çw{A0#í8	û»w| hFm5
+ûx|B8#81ÆEx} –J∞ÆÇx}B8#81™≈x~bfx ™y~Ä0# *FyàW5<
+ÜyÄ Rj`äŒyÄ&"äËqÅ÷* zÇ p@'t.izÇ‡(" öäzÉ‰h( 2J¿zEÄ4#í J {EB2#í  B{FÄ2#Ç0 Ç{FZ4#Ç8 ¬{GÄ4#B  |GÄ0SF  B|GÄ8#B† Ç|GB4#B  ¬|HÄ0#4 }HB2#0 Çi}I ƒI4!Í*I " "Çä}Iƒ) #≈}J  ¢$$Ç~JA2#¢0%ûB~dÄ8#í±&ûÇ~dB0#í1'é¡~e pP4(ée –Z!)íBfÄ4#í81*>Üg hf®≠$+æÍg! "¢$,,æÄhÄ2# -≤]Äi bF¨µ.≤ÇÄiB2#ı/∆Äj ‘J§Ù0ÜÅjB4#%1ñjÅk àGdAF2ñÇÅkA0#b3∆Ål Aîq4Çl &bòë5ûBÇm¿8sô%6êÇm  B7û¬ÇmB4#íe8Ém‰hò 9ûBÉmB2#Re:ûÇÉmÄ4#R8!;û¬Ém
+9#RÌ<Ñn ê(≤,1=
+kÑo ap>≤ÇÑoA4#8?≤¬ÑpÄ8#í)a@≤Öp ÄWñ ANFÖq `® BŒÇÖq9#b‚C¬¬ÖrÄ8#B!D¬
+ÜrÑW,!EBFÜr ÜG0F¬ÇÜrB8#ÂG¬¬ÜsÄ4#í1H¬+ás 'í I¬Cát  Rñ$JBÜáu &Rñ4K÷áv –Jî LÜàvA4#·MæBàwÄ4# Næùàw  "4 O>÷àw	p $P≤âx 5#R1Q≤Bâx"9#R˘R™ÇâyÄ4#í S™¬âyA4#íDT™
+äz dFlUFäz&"V¬Çä{Ä0#í!
